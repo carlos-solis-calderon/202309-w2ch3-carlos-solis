@@ -1,7 +1,7 @@
 Crea un modulo con funciones que repliquen los siguientes métodos de array, sin utilizar ninguno de los métodos o propiedades ya existentes en el prototipo, :
 
 length,
-push,
+push,asdasda
 pop (puede usar length),
 unshift,
 shift (puede usar length),

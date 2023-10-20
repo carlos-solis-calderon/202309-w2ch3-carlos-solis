@@ -10,9 +10,9 @@ describe('Given my lenght function', () => {
 });
 
 import { arrayPush } from './tools.js';
-describe('Given the push function', () => {
+describe('Given the push function'), () => {
   describe('When the argument is [1, 2, 3, 4], 5', () => {
-    test('The result should be 5')  () => {
+    test('The result should be 5') () => {
         const n = [1, 2, 3, 4];
         const x = 5;
         const expected = 5;
@@ -22,7 +22,7 @@ describe('Given the push function', () => {
         expect(result).toBe(expected);
       };
   });
-});
+};
 
 // eslint-disable-next-line no-unused-expressions
 describe('Given singularPop'),

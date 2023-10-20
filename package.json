@@ -6,8 +6,10 @@
   "type": "module",
   "scripts": {
     "sass": "sass scss:css -w --no-source-map",
-    "test": "jest",
-    "prepare": "husky install"
+    "test": "jest --watchAll",
+    "prepare": "husky install",
+    "test:coverage": "jest --watchAll --coverage",
+    "test:prod": "jest -- watchAll --coverage --watchAll=false -- passWithNoTests"
   },
   "keywords": [],
   "author": "Carlos Solis",

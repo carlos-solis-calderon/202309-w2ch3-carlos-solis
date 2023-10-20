@@ -18,3 +18,11 @@ export const singularPop = (arr) => {
   arr.length -= 1;
   return arr;
 };
+
+export const arrayUnshift = (array) => {
+  for (let i = 0; i < array.length++) {
+    let elementCount  = array.length[i]
+    elementCount ++
+    
+  };
+};
